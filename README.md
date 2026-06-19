@@ -35,7 +35,7 @@ This project simulates a complete SOC environment for threat detection, alert tr
 ## Project Team
 
 * Tchjima KONE — SOC Engineer
-* Stéphane ZUNON — Detection Analyst
+* Touali ZUNON — Detection Analyst
 * Rohon YESSOH — Incident Analyst
 
 ## My Role
@@ -48,10 +48,12 @@ As Detection Analyst, I contributed to:
 * Alert validation and analysis in the Wazuh dashboard
 * Detection tuning and verification
 
+## Results
+
+* Detection Rate: 95%
+* Mean Time To Detect (MTTD): < 1 minute
+* False Positive Rate: < 5%
+
 ## Project Status
 
 Completed
-
-- 95% Detection Rate
-- MTTD < 1 minute
-- False Positives < 5%
