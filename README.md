@@ -48,12 +48,6 @@ As Detection Analyst, I contributed to:
 * Alert validation and analysis in the Wazuh dashboard
 * Detection tuning and verification
 
-## Results
-
-* Detection Rate: 95%
-* Mean Time To Detect (MTTD): < 1 minute
-* False Positive Rate: < 5%
-
 ## Project Status
 
 Completed
