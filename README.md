@@ -1,58 +1,63 @@
-# SOC Lab – Wazuh SIEM
+# SOC-Lab-Wazuh
 
-## Overview
+Security Operations Center (SOC) laboratory built with Wazuh SIEM, Sysmon, VirtualBox and MITRE ATT&CK.
 
-This project consists of the design and implementation of a Security Operations Center (SOC) laboratory using Wazuh SIEM, Sysmon, Windows and Linux endpoints.
+## Project Overview
 
-The objective was to simulate real-world cyber attacks, detect malicious activities, investigate alerts and map detections to the MITRE ATT&CK framework.
+This project simulates a complete SOC environment for threat detection, alert triage, incident investigation and incident response.
 
----
+## Technologies
 
-## Technologies Used
+* Wazuh 4.7.5
+* Sysmon
+* VirtualBox
+* Ubuntu 24.04
+* Windows Server 2022
+* Kali Linux
 
-- Wazuh SIEM
-- Sysmon
-- Windows
-- Linux
-- MITRE ATT&CK
-- Nmap
-- Hydra
-- Mimikatz
-- Netcat
+## MITRE ATT&CK Techniques
 
----
+* T1046 - Network Service Discovery
+* T1110.003 - Brute Force
+* T1003 - Credential Dumping
+* T1547.001 - Registry Run Keys / Startup Folder
+* T1041 - Exfiltration Over C2 Channel
 
-## Attack Scenarios
+## Detection Capabilities
 
-The following attack techniques were simulated and detected:
-
-- Network Discovery (T1046)
-- Password Spraying (T1110.003)
-- Credential Dumping (T1003)
-- Registry Run Keys / Startup Folder (T1547.001)
-- Exfiltration Over C2 Channel (T1041)
-
----
-
-## Key Features
-
-- Custom Wazuh detection rules
-- Event correlation
-- MITRE ATT&CK mapping
-- Incident investigation
-- SOC runbooks
-- Detection metrics
-
----
+* 19 Custom Wazuh Detection Rules
+* Windows & Linux Monitoring
+* Incident Runbooks
+* MITRE ATT&CK Mapping
+* SOC Incident Reporting
+* Event Correlation
 
 ## Project Team
 
-- Ange Zunon
-- M. Koné
-- Yessoh Rohon
+* Tchjima KONE — SOC Engineer
+* Stéphane ZUNON — Detection Analyst
+* Rohon YESSOH — Incident Analyst
 
----
+## My Role
 
-## Status
+As Detection Analyst, I contributed to:
+
+* MITRE ATT&CK mapping
+* Development of custom Wazuh detection rules
+* Attack simulation from Kali Linux
+* Alert validation and analysis in the Wazuh dashboard
+* Detection tuning and verification
+
+## Results
+
+* Detection Rate: 95%
+* Mean Time To Detect (MTTD): < 1 minute
+* False Positive Rate: < 5%
+
+## Project Status
 
 Completed
+
+- 95% Detection Rate
+- MTTD < 1 minute
+- False Positives < 5%
